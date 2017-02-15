@@ -61,7 +61,7 @@ read input
 
 # Committing to the local repository with a message containing the time details and commit text
 curtime=$(date)
-git commit -m "Comment : $input on $curtime"
+git commit -m "Comentario : $input en $curtime"
 
 # Push the local files to github
 
